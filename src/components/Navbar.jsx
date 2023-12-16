@@ -36,7 +36,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full border-b supports-backdrop-blur:bg-background/60 border-muted backdrop-blur">
       <div className="container flex items-center h-14">
         <div className="flex mr-4">
-          <a className="text-lg flex items-center mr-6 space-x-2 font-semibold text-blue-800" href="/">
+          <a className="text-xl flex items-center mr-6 space-x-2 font-semibold text-blue-800" href="/">
             zenith.
           </a>
           <nav className="items-center hidden space-x-6 text-sm font-medium md:flex">

@@ -1,4 +1,5 @@
 import ForumList from "@/components/forum/ForumCardList";
+import prisma from "@/lib/prisma";
 
 export default async function Home() {
   return (
