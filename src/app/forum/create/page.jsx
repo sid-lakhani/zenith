@@ -56,7 +56,7 @@ export default function CreateFormPage() {
   };
   return (
     <div className="flex flex-col items-center px-12 text-black">
-      <h3 className="text-xl font-semibold text-center text-black md:text-2xl lg:text-3xl">
+      <h3 className="text-2xl font-semibold text-center text-black md:text-3xl lg:text-4xl">
         Drop your question
       </h3>
       <Form {...form}>

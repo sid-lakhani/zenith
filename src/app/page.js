@@ -1,5 +1,5 @@
 import ForumList from "@/components/forum/ForumCardList";
-import prisma from "@/lib/prisma";
+import React from "react";
 
 export default async function Home() {
   return (
@@ -10,10 +10,14 @@ export default async function Home() {
           <span className="text-blue-600">Knowledge and Skills</span>
         </h1>
         <div className="flex flex-col gap-3 mt-8 sm:flex-row">
-          <button className="px-6 py-2 text-white bg-blue-500 rounded-full">
+          <button
+            className="px-6 py-2 text-white bg-blue-500 rounded-full"
+          >
             Get Started
           </button>
-          <button className="px-6 py-2 text-blue-500 border border-blue-500 rounded-full">
+          <button
+            className="px-6 py-2 text-blue-500 border border-blue-500 rounded-full"
+          >
             Explore Now
           </button>
         </div>
@@ -23,7 +27,12 @@ export default async function Home() {
           What is zenith?
         </h1>
         <p className="mt-4 text-lg text-gray-600">
-          <span className="text-blue-500">the point in the sky directly above an observer.</span> your intellectual zenith, is a knowledge-sharing space where the collective wisdom of diverse minds converges, creating an elevated space for collaborative learning and insightful discussions.
+          <span className="text-blue-500">
+            the point in the sky directly above an observer.
+          </span>{" "}
+          your intellectual zenith, is a knowledge-sharing space where the
+          collective wisdom of diverse minds converges, creating an elevated
+          space for collaborative learning and insightful discussions.
         </p>
       </div>
       <div>
