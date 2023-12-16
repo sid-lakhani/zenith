@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <html lang="en">
         <body
           className={cn(
-            "relative flex flex-col items-center min-h-screen text-white bg-sky-200",
+            "relative flex flex-col items-center min-h-screen text-white bg-blue-200",
             poppins.className
           )}
         >

@@ -13,20 +13,12 @@ export const navLinks = [
       href: "/",
     },
     {
-      text: "Docs",
-      href: "/docs",
+      text: "Ask Question",
+      href: "/forum/create",
     },
     {
-      text: "Components",
-      href: "/docs/components",
-    },
-    {
-      text: "Themes",
-      href: "/themes",
-    },
-    {
-      text: "Examples",
-      href: "/examples",
+      text: "Browse Threads",
+      href: "/forum",
     },
   ];
 
@@ -44,14 +36,14 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full border-b supports-backdrop-blur:bg-background/60 border-muted backdrop-blur">
       <div className="container flex items-center h-14">
         <div className="flex mr-4">
-          <a className="flex items-center mr-6 space-x-2 font-semibold text-blue-600" href="/">
+          <a className="text-lg flex items-center mr-6 space-x-2 font-semibold text-blue-800" href="/">
             zenith.
           </a>
           <nav className="items-center hidden space-x-6 text-sm font-medium md:flex">
             {navLinks.map((link) => (
               <a
                 key={link.text.toLocaleLowerCase()}
-                className="transition-colors hover:text-foreground text-foreground/80"
+                className="text-lg transition-colors hover:text-foreground text-foreground/80"
                 href={link.href}
               >
                 {link.text}
@@ -70,7 +62,7 @@ const Navbar = () => {
           )}
         </div>
         <Sheet>
-          <SheetTrigger asChild className="-order-1">
+          <SheetTrigger asChild className="-order-1 bg-blue-200">
             <Button
               className="mr-3 md:hidden"
               variant="outline"
@@ -78,7 +70,7 @@ const Navbar = () => {
               aria-label="Open Menu"
               onClick={handleMenuClick}
             >
-              <MenuIcon className="w-6 h-6 transition-colors hover:text-foreground text-foreground/80" />
+              <MenuIcon className="w-6 h-6 text-black" />
             </Button>
           </SheetTrigger>
           <MobileNav />

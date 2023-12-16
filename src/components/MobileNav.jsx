@@ -8,9 +8,9 @@ const MobileNav = () => {
   return (
     <SheetContent side="left">
       <SheetHeader>
-        <SheetTitle className="text-blue-800">zenith.</SheetTitle>
+        <SheetTitle>zenith.</SheetTitle>
       </SheetHeader>
-      <div className="flex flex-col gap-4 py-4 text-black text-sm font-medium">
+      <div className="flex flex-col gap-4 py-4 text-black">
         {navLinks.map((link) => (
           <a href={link.href} className="" key={link.text.toLocaleLowerCase()}>
             {link.text}
