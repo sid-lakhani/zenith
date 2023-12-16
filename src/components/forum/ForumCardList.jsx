@@ -6,7 +6,7 @@ import { dummyForums } from "@/lib/dummy";
 export default function ForumCardList({ count = 8 }) {
   return (
     <div className="flex flex-col items-center mt-6">
-      <h3 className="text-lg font-semibold text-center text-black md:text-xl lg:text-2xl">
+      <h3 className="text-xl font-bold text-center text-black md:text-2xl lg:text-3xl mt-4">
         Popular Forums
       </h3>
 
