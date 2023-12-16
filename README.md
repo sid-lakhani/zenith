@@ -1,4 +1,4 @@
-# Zenith - Knowledge Forum
+# zenith. a knowledge forum
 
 Welcome to Zenith, your intellectual zenith! 🚀
 
