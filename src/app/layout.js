@@ -1,11 +1,10 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import { cn } from "@/lib/utils";
+import { ClerkProvider } from "@clerk/nextjs";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { cn } from "@/lib/utils";
 
-const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "800"] });
 
 export const metadata = {
