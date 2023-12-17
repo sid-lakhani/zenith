@@ -11,7 +11,7 @@ export default function Footer() {
         href="https://github.com/sid-lakhani/zenith"
         className="text-gray-900 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition-colors duration-300 ease-in-out"
       >
-        <Github size={36} />
+        <Github size={28} />
       </a>
     </footer>
   );
