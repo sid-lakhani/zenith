@@ -17,6 +17,7 @@ export default async function Home() {
           </button>
           <button
             className="px-6 py-2 text-blue-500 border border-blue-500 rounded-full"
+            href="#/forum"
           >
             Explore Now
           </button>
