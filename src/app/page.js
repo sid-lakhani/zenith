@@ -12,6 +12,7 @@ export default async function Home() {
         <div className="flex flex-col gap-3 mt-8 sm:flex-row">
           <button
             className="px-6 py-2 text-white bg-blue-500 rounded-full"
+            href="#/forum/create"
           >
             Get Started
           </button>
