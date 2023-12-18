@@ -10,14 +10,16 @@ export default async function Home() {
           <span className="text-blue-600">Knowledge and Skills</span>
         </h1>
         <div className="flex flex-col gap-3 mt-8 sm:flex-row">
-          <button className="px-6 py-2 text-white bg-blue-500 rounded-full hover:bg-blue-400 transition-colors duration-300 ease-in-out">
-            <a href="/forum/create" className="text-white">
+          <a href="/forum/create" className="text-white">
+            <button className="px-6 py-2 text-white bg-blue-500 rounded-full hover:bg-blue-400 transition-colors duration-300 ease-in-out">
               Get Started
-            </a>
-          </button>
-          <button className="px-6 py-2 text-blue-500 border border-blue-500 rounded-full hover:bg-blue-100 transition-colors duration-300 ease-in-out">
-            <a href="forum">Explore Now</a>
-          </button>
+            </button>
+          </a>
+          <a href="forum">
+            <button className="px-6 py-2 text-blue-500 border border-blue-500 rounded-full hover:bg-blue-100 transition-colors duration-300 ease-in-out">
+              Explore Now
+            </button>
+          </a>
         </div>
       </div>
       <div className="mt-8">
